@@ -1,0 +1,9 @@
+.vs
+
+bin
+obj
+packages
+PublishProfiles
+
+*.user
+secrets.json

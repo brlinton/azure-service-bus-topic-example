@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "service-planName": {
+      "value": "bl-service-plan"
+    },
+    "serviceBusNamespaceName": {
+      "value": "bl-sbtopic-ns"
+    },
+    "serviceBusSku": {
+      "value": "Standard"
+    },
+    "serviceBusApiVersion": {
+      "value": "2015-08-01"
+    },
+    "serviceBusTopicName": {
+      "value": "bl-sbtopic-topic"
+    },
+    "serviceBusTopicSubscriptionName1": {
+      "value": "bl-sbtopic-topicsub-1"
+    },
+    "serviceBusTopicSubscriptionName2": {
+      "value": "bl-sbtopic-topicsub-2"
+    }
+  }
+}
