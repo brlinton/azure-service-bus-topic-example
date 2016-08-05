@@ -4,7 +4,7 @@ Demonstrating publish / subscribe with Azure Service Bus topics and resource tem
 
 ## Getting Started
 
-From a fresh clone, you'll need to create a secrets.json file and drop it in the Subscriber project as well as in `App_Data` underneath the MessageGenerator project.  It just needs one value for your service bus connection string:
+From a fresh clone, you'll need to create a **secrets.json** file and drop it in the Subscriber project as well as in `App_Data` underneath the MessageGenerator project.  It just needs one value for your service bus connection string:
 
 ```
 {
